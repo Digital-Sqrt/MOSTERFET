@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 32)
+    (drawings 31)
     (tracks 162)
     (zones 0)
     (modules 32)
@@ -61,7 +61,7 @@
     (pad_to_paste_clearance_ratio -0.05)
     (aux_axis_origin 73 117)
     (grid_origin 73 117)
-    (visible_elements 7FFFF77F)
+    (visible_elements 7FFFE77F)
     (pcbplotparams
       (layerselection 0x010e0_ffffffff)
       (usegerberextensions false)
@@ -152,7 +152,7 @@
     (uvia_drill 0.1)
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5E6C0722) (tstamp 5BD1049D)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5E6DC0ED) (tstamp 5BD1049D)
     (at 76 114)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
@@ -1156,8 +1156,8 @@
     (pad "" np_thru_hole circle (at 1 -1) (size 4 4) (drill 3.35) (layers *.Cu *.Mask))
   )
 
-  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5E6C06EA) (tstamp 5BC69285)
-    (at 77 86)
+  (module Mounting_Holes:MountingHole_3.2mm_M3 (layer F.Cu) (tedit 5E6C06EA) (tstamp 5E6E3E21)
+    (at 76 87)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (path /5C722FDB)
@@ -1960,7 +1960,7 @@
   )
 
   (module Symbols:OSHW-Symbol_8.9x8mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5E6D371E)
-    (at 80.25 85.5)
+    (at 80 87)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
@@ -2225,9 +2225,6 @@
   (target plus (at 73 117) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_text "MOSTER FET is licensed under a\nCreative Commons Attribution-ShareAlike \n3.0 Unported License." (at 85.25 66.5 90) (layer B.Cu) (tstamp 5E6D3D4E)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
-  )
-  (gr_text "OSHW xxxxx" (at 80.75 90.75) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_line (start 110.75 68) (end 102 68) (layer B.Mask) (width 5))
   (dimension 52 (width 0.3) (layer Dwgs.User)
