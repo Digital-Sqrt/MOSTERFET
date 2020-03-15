@@ -1,4 +1,4 @@
-update=3/14/2020 2:05:25 AM
+update=3/15/2020 5:52:47 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -15,14 +15,14 @@ PageLayoutDescrFile=Title_Block_Logo.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=Title_Block_Logo.kicad_wks
-LastNetListRead=High Power SW.net
+LastNetListRead=MOSTERFET.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
