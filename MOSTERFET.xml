@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Digital-Sqrt\Documents\Git_Hub\Low Cost MOSFET\MOSTERFET.sch</source>
+    <date>3/16/2019 6:29:26 PM</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev>1.0</rev>
+        <date>2019-02-23</date>
+        <source>MOSTERFET.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>1.99K</value>
+      <footprint>Resistors_SMD:R_1210_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Stackpole Electronics Inc.</field>
+        <field name="Manufacturer Number">RMCF1210JT2K00</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT2K00/RMCF1210JT2K00TR-ND/1757288</field>
+        <field name="Supplier Part No">RMCF1210JT2K00TR-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580AE048</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TLP182</value>
+      <footprint>MyLib:OP_Hybrid</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14414&amp;prodName=TLP182</datasheet>
+      <fields>
+        <field name="CPN">TLP290GB</field>
+        <field name="Manufacturer">Toshiba</field>
+        <field name="Manufacturer Number">TLP182(BL-TPL,E</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/products/en?keywords=TLP182(BL-TPLECT-ND</field>
+        <field name="Supplier Part No">TLP182(BL-TPLECT-ND</field>
+      </fields>
+      <libsource lib="MyComp" part="TLP182" description="AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E947F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1.0K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Number">RC1206FR-071KL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334</field>
+        <field name="Supplier Part No">311-1.00KFRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581EA32B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <datasheet>http://www.qt-brightek.com/datasheet/QBLP631_series.pdf</datasheet>
+      <fields>
+        <field name="CPN">LED 0805 white</field>
+        <field name="Manufacturer">QT Brightek (QTB)</field>
+        <field name="Manufacturer Number">QBLP631-IW</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/products/en?keywords=1516-1085-2-ND</field>
+        <field name="Supplier Part No">1516-1085-2-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED_Small_ALT" description="Light emitting diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582E54FD</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>Jumper_NC_Small</value>
+      <footprint>Connectors_JST:JST_NV_B02P-NV_2x5.00mm_Vertical</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf</datasheet>
+      <fields>
+        <field name="CPN">5mm Screw Termainal PCB</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Manufacturer Number">1935161</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/products/en?keywords=277-1667-ND</field>
+        <field name="Supplier Part No">277-1667-ND</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02" description="Connector, single row, 01x02, pin header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>582FB0BD</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>3.6K</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Number">RC1206FR-073K6L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">http://www.digikey.com/products/en?keywords=311-3.60KFRCT-ND</field>
+        <field name="Supplier Part No">311-3.60KFRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58427F19</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>AUIRFSA8409-7P</value>
+      <footprint>MyLib:TO-263-6-HeatSunk</footprint>
+      <datasheet>https://www.infineon.com/dgdl/auirfsa8409-7P.pdf?fileId=5546d462533600a4015355b9bf8114fb</datasheet>
+      <fields>
+        <field name="CPN">IRFS7430-7PPbF</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Number">AUIRFSA8409-7P</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/products/en?keywords=AUIRFSA8409-7P-ND</field>
+        <field name="Supplier Part No">AUIRFSA8409-7P-ND</field>
+      </fields>
+      <libsource lib="MyComp" part="Q_NMOS_GSSSSSD" description="N-MOSFET transistor, gate/drain/source, drain connected to mounting plane"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70C3F2</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>XT-60</value>
+      <footprint>MyLib:XT60</footprint>
+      <fields>
+        <field name="CPN">XT-60</field>
+        <field name="Manufacturer">SparkFun</field>
+        <field name="Manufacturer Number">XT-60</field>
+        <field name="Supplier">SparkFun</field>
+        <field name="Supplier Link">https://www.sparkfun.com/products/10474</field>
+        <field name="Supplier Part No">PRT-10474</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02" description="Connector, single row, 01x02, pin header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70D7F9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>15V</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF</datasheet>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Number">BZX84C15LT3G</field>
+        <field name="Parts Per Reel">BZX84C15</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/product-detail/en/on-semiconductor/BZX84C15LT3G/BZX84C15LT3GOSTR-ND/1476313</field>
+        <field name="Supplier Part No">BZX84C15LT3GOSTR-ND</field>
+      </fields>
+      <libsource lib="MyComp" part="D_Zener_Single_SOT_3pin" description="Zener diode, small symbol, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C70E3C6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10000pF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B103KBANNND.jsp</datasheet>
+      <fields>
+        <field name="CPN">0805 10000pF Ceramic 50V Cap</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer Number">CL21B103KBANNND</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Link">https://www.digikey.com/products/en?keywords=CL21B103KBANNND-ND</field>
+        <field name="Supplier Part No">CL21B103KBANNND-ND</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C717987</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>M3 Clearance Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C722622</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>M3 Clearance Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C7228F0</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M3 Clearance Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C722FDB</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M3 Clearance Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C722FE1</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>XT-60</value>
+      <footprint>MyLib:XT60</footprint>
+      <fields>
+        <field name="CPN">XT-60</field>
+        <field name="Manufacturer">SparkFun</field>
+        <field name="Manufacturer Number">XT-60</field>
+        <field name="Supplier">SparkFun</field>
+        <field name="Supplier Link">https://www.sparkfun.com/products/10474</field>
+        <field name="Supplier Part No">PRT-10474</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02" description="Connector, single row, 01x02, pin header"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C728CBA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Small_ALT">
+      <description>Light emitting diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Small_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="MyComp" part="D_Zener_Single_SOT_3pin">
+      <description>Zener diode, small symbol, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Single_SOT_3pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyComp" part="Q_NMOS_GSSSSSD">
+      <description>N-MOSFET transistor, gate/drain/source, drain connected to mounting plane</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSSSSSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="D" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="S" type="passive"/>
+        <pin num="7" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyComp" part="TLP182">
+      <aliases>
+        <alias>TCMT1600</alias>
+      </aliases>
+      <description>AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4</description>
+      <docs>http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP290_en_datasheet_120426.pdf</docs>
+      <footprints>
+        <fp>SOP*4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP182</field>
+        <field name="Footprint">Housings_SSOP:SOP-4_4.4x2.8mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="MyComp">
+      <uri>C:\Users\Digital-Sqrt\Documents\Git_Hub\Low Cost MOSFET/MyComp.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="U1" pin="6"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="J1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="3" name="Net-(D3-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(CN1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="CN1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad3)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(CN1-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="CN1" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,147 @@
+Cmp-Mod V01 Created by PcbNew   date = 2/23/2019 11:59:19 PM
+
+BeginCmp
+TimeStamp = 5C70F954
+Path = /5C70C3F2
+Reference = Q1;
+ValeurCmp = AUIRFSA8409-7P;
+IdModule  = MyLib:TO-263-6-HeatSunk;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD1049D
+Path = 
+Reference = H4;
+ValeurCmp = M3 Clearance Hole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD10481
+Path = 
+Reference = H3;
+ValeurCmp = M3 Clearance Hole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC6928B
+Path = 
+Reference = H2;
+ValeurCmp = M3 Clearance Hole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC69285
+Path = 
+Reference = H1;
+ValeurCmp = M3 Clearance Hole;
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC6927A
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = MyLib:LOGO_POS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BC6921E
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Symbols:OSHW-Symbol_6.7x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5BD0F2D2
+Path = /581E947F
+Reference = U1;
+ValeurCmp = TLP182;
+IdModule  = MyLib:OP_Hybrid;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C70F8F6
+Path = /582FB0BD
+Reference = CN1;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = Connectors_JST:JST_NV_B02P-NV_2x5.00mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C70F90B
+Path = /5C70E3C6
+Reference = D1;
+ValeurCmp = 15V;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C70F920
+Path = /582E54FD
+Reference = D3;
+ValeurCmp = Led_Small;
+IdModule  = LEDs:LED_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C70F965
+Path = /581EA32B
+Reference = R1;
+ValeurCmp = 1.0K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C70F976
+Path = /580AE048
+Reference = R3;
+ValeurCmp = 1.99K;
+IdModule  = Resistors_SMD:R_1210_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C70F987
+Path = /58427F19
+Reference = R5;
+ValeurCmp = 3.6K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C710119
+Path = /5C70D8DC
+Reference = J1;
+ValeurCmp = CONN_01X02;
+IdModule  = MyLib:XT60;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C7101E8
+Path = /5C70D7F9
+Reference = J2;
+ValeurCmp = CONN_01X02;
+IdModule  = MyLib:XT60;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C71778B
+Path = /5C717987
+Reference = C1;
+ValeurCmp = .1uF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5C71AF8E
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = MyLib:MOSTER_FET_LOGO;
+EndCmp
+
+EndListe

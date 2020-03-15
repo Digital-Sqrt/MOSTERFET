@@ -1,0 +1,831 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11000 8000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2020-03-13"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R13
+U 1 1 580AE048
+P 2275 3700
+F 0 "R13" V 2355 3700 50  0000 C CNN
+F 1 "1.99K" V 2200 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" V 2205 3700 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 2275 3700 50  0001 C CNN
+F 4 "RMCF1210JT2K00" H 2275 3700 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 2275 3700 60  0001 C CNN "Supplier"
+F 6 "RMCF1210JT2K00TR-ND" H 2275 3700 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT2K00/RMCF1210JT2K00TR-ND/1757288" H 2275 3700 60  0001 C CNN "Supplier Link"
+F 8 "Stackpole Electronics Inc." H 2275 3700 60  0001 C CNN "Manufacturer"
+	1    2275 3700
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR01
+U 1 1 580AECD6
+P 4725 2850
+F 0 "#PWR01" H 4725 2700 50  0001 C CNN
+F 1 "+BATT" H 4725 2990 50  0000 C CNN
+F 2 "" H 4725 2850 50  0000 C CNN
+F 3 "" H 4725 2850 50  0000 C CNN
+	1    4725 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyComp:TLP182 U11
+U 1 1 581E947F
+P 2900 3600
+F 0 "U11" H 2725 3375 50  0000 L CNN
+F 1 "TLP182" H 2725 3800 50  0000 L CNN
+F 2 "MyLib:TLP182" H 2700 3400 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14414&prodName=TLP182" H 2900 3600 50  0001 L CNN
+F 4 "TLP182(BL-TPL,E" H 2900 3600 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 2900 3600 60  0001 C CNN "Supplier"
+F 6 "TLP182(BL-TPLECT-ND" H 2900 3600 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=TLP182(BL-TPLECT-ND" H 2900 3600 60  0001 C CNN "Supplier Link"
+F 8 "Toshiba" H 2900 3600 60  0001 C CNN "Manufacturer"
+F 9 "TLP290GB" H 2900 3600 50  0001 C CNN "CPN"
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR02
+U 1 1 581EA16D
+P 3225 3250
+F 0 "#PWR02" H 3225 3100 50  0001 C CNN
+F 1 "+BATT" H 3225 3390 50  0000 C CNN
+F 2 "" H 3225 3250 50  0000 C CNN
+F 3 "" H 3225 3250 50  0000 C CNN
+	1    3225 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 581EA32B
+P 3225 3925
+F 0 "R11" V 3305 3925 50  0000 C CNN
+F 1 "1.0K" V 3125 3925 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3155 3925 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3225 3925 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 3225 3925 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 3225 3925 60  0001 C CNN "Supplier"
+F 6 "311-1.00KFRCT-ND" H 3225 3925 60  0001 C CNN "Supplier Part No"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 3225 3925 60  0001 C CNN "Supplier Link"
+F 8 "Yageo" H 3225 3925 60  0001 C CNN "Manufacturer"
+	1    3225 3925
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D13
+U 1 1 582E54FD
+P 3825 3650
+F 0 "D13" H 3775 3775 50  0000 L CNN
+F 1 "~" H 3650 3550 50  0001 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" V 3825 3650 50  0001 C CNN
+F 3 "http://www.qt-brightek.com/datasheet/QBLP631_series.pdf" V 3825 3650 50  0001 C CNN
+F 4 "QBLP631-IW" H 3825 3650 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 3825 3650 60  0001 C CNN "Supplier"
+F 6 "1516-1085-2-ND" H 3825 3650 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=1516-1085-2-ND" H 3825 3650 60  0001 C CNN "Supplier Link"
+F 8 "QT Brightek (QTB)" H 3825 3650 60  0001 C CNN "Manufacturer"
+F 9 "LED 0805 white" H 3825 3650 50  0001 C CNN "CPN"
+	1    3825 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L conn:CONN_01X02 CN11
+U 1 1 582FB0BD
+P 1700 3550
+F 0 "CN11" H 1700 3700 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 1710 3490 50  0001 C CNN
+F 2 "Connectors_JST:JST_NV_B02P-NV_2x5.00mm_Vertical" H 1700 3550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 1700 3550 50  0001 C CNN
+F 4 "1935161" H 1700 3550 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 1700 3550 60  0001 C CNN "Supplier"
+F 6 "277-1667-ND" H 1700 3550 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=277-1667-ND" H 1700 3550 60  0001 C CNN "Supplier Link"
+F 8 "Phoenix Contact" H 1700 3550 60  0001 C CNN "Manufacturer"
+F 9 "5mm Screw Termainal PCB" H 1700 3550 50  0001 C CNN "CPN"
+	1    1700 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 584239D3
+P 3825 4475
+F 0 "#PWR03" H 3825 4225 50  0001 C CNN
+F 1 "GND" H 3825 4325 50  0000 C CNN
+F 2 "" H 3825 4475 50  0000 C CNN
+F 3 "" H 3825 4475 50  0000 C CNN
+	1    3825 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR04
+U 1 1 58423EEF
+P 3825 3150
+F 0 "#PWR04" H 3825 3000 50  0001 C CNN
+F 1 "+BATT" H 3825 3290 50  0000 C CNN
+F 2 "" H 3825 3150 50  0000 C CNN
+F 3 "" H 3825 3150 50  0000 C CNN
+	1    3825 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5842462A
+P 3225 4475
+F 0 "#PWR05" H 3225 4225 50  0001 C CNN
+F 1 "GND" H 3225 4325 50  0000 C CNN
+F 2 "" H 3225 4475 50  0000 C CNN
+F 3 "" H 3225 4475 50  0000 C CNN
+	1    3225 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 58427F19
+P 3825 3350
+F 0 "R15" V 3905 3350 50  0000 C CNN
+F 1 "3.6K" V 3725 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 3755 3350 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 3825 3350 50  0001 C CNN
+F 4 "RC1206FR-073K6L" H 3825 3350 60  0001 C CNN "Manufacturer Number"
+F 5 "Yageo" H 3825 3350 60  0001 C CNN "Manufacturer"
+F 6 "Digi-Key" H 3825 3350 60  0001 C CNN "Supplier"
+F 7 "http://www.digikey.com/products/en?keywords=311-3.60KFRCT-ND" H 3825 3350 60  0001 C CNN "Supplier Link"
+F 8 "311-3.60KFRCT-ND" H 3825 3350 60  0001 C CNN "Supplier Part No"
+	1    3825 3350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 3150 3825 3200
+Wire Wire Line
+	3225 4075 3225 4125
+Wire Wire Line
+	3525 4125 3225 4125
+Connection ~ 3225 4125
+Wire Wire Line
+	3200 3500 3225 3500
+Wire Wire Line
+	3225 3500 3225 3250
+Wire Wire Line
+	3200 3700 3225 3700
+Wire Wire Line
+	3225 3700 3225 3775
+Text Notes 2150 6650 0    60   ~ 0
+MOSTER FET is licensed under a\nCreative Commons Attribution-ShareAlike 3.0 Unported License.
+Wire Wire Line
+	3825 3500 3825 3550
+Wire Wire Line
+	1900 3500 2600 3500
+Wire Wire Line
+	2425 3700 2600 3700
+Text Notes 5000 3125 0    60   ~ 0
+POWER-
+Text Notes 5000 3025 0    60   ~ 0
+POWER+
+Text Notes 5000 3750 0    60   ~ 0
+BED+
+Text Notes 5000 3850 0    60   ~ 0
+BED-
+Text Notes 4025 3500 1    39   ~ 0
+1/4 Watt
+Text Notes 3425 4050 1    39   ~ 0
+1/8 Watt
+Text Notes 2150 3875 0    39   ~ 0
+1/2 Watt
+Wire Wire Line
+	3825 3750 3825 3800
+Connection ~ 3825 3800
+Text Notes 575  1700 0    60   ~ 0
+\nExceding 40v for evern a short time will destroy\nthe part. (even a high speed spike)\n\nThe input trigger is opticly isolated from the bed power supply.\n\n60A Max curent through bed terminals.\n\nMax size heated bed\n     24v - 1440Watts (0.4 Ohms)\n     12v - 720Watts (0.2 Ohms)
+$Comp
+L MyComp:Q_NMOS_GSSSSSD Q11
+U 1 1 5C70C3F2
+P 3725 4125
+F 0 "Q11" H 3925 4125 50  0000 L CNN
+F 1 "AUIRFSA8409-7P" H 3925 4225 50  0000 L CNN
+F 2 "MyLib:TO-263-6-HeatSunk" H 3925 4225 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/auirfsa8409-7P.pdf?fileId=5546d462533600a4015355b9bf8114fb" H 3725 4125 50  0001 C CNN
+F 4 "AUIRFSA8409-7P" H 3725 4125 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 3725 4125 50  0001 C CNN "Supplier"
+F 6 "AUIRFSA8409-7P-ND" H 3725 4125 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=AUIRFSA8409-7P-ND" H 3725 4125 50  0001 C CIN "Supplier Link"
+F 8 "Infineon Technologies" H 3725 4125 50  0001 C CNN "Manufacturer"
+F 9 "IRFS7430-7PPbF" H 3725 4125 50  0001 C CNN "CPN"
+	1    3725 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 3800 3825 3925
+$Comp
+L conn:CONN_01X02 J12
+U 1 1 5C70D7F9
+P 4925 3750
+F 0 "J12" H 4875 3600 50  0000 L CNN
+F 1 "XT-60" H 5003 3700 50  0001 L CNN
+F 2 "MyLib:XT60" H 4925 3750 50  0001 C CNN
+F 3 "" H 4925 3750 50  0001 C CNN
+F 4 "XT-60" H 4925 3750 50  0001 C CNN "Manufacturer Number"
+F 5 "SparkFun" H 4925 3750 50  0001 C CNN "Supplier"
+F 6 "PRT-10474" H 4925 3750 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.sparkfun.com/products/10474" H 4925 3750 50  0001 C CNN "Supplier Link"
+F 8 "SparkFun" H 4925 3750 50  0001 C CNN "Manufacturer"
+F 9 "XT-60" H 4925 3750 50  0001 C CNN "CPN"
+	1    4925 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3825 4375 3825 4425
+Wire Wire Line
+	4225 4375 4225 4425
+Wire Wire Line
+	4225 4425 4125 4425
+Connection ~ 3825 4425
+Wire Wire Line
+	3825 4425 3825 4475
+Wire Wire Line
+	3925 4375 3925 4425
+Connection ~ 3925 4425
+Wire Wire Line
+	3925 4425 3825 4425
+Wire Wire Line
+	4025 4375 4025 4425
+Connection ~ 4025 4425
+Wire Wire Line
+	4025 4425 3925 4425
+Wire Wire Line
+	4125 4375 4125 4425
+Connection ~ 4125 4425
+Wire Wire Line
+	4125 4425 4025 4425
+$Comp
+L MyComp:D_Zener_Single_SOT_3pin D11
+U 1 1 5C70E3C6
+P 3225 4325
+F 0 "D11" V 3179 4393 50  0000 L CNN
+F 1 "15V" V 3270 4393 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" V 3225 4325 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" V 3225 4325 50  0001 C CNN
+F 4 "BZX84C15LT3G" H 3225 4325 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 3225 4325 50  0001 C CNN "Supplier"
+F 6 "BZX84C15LT3GOSTR-ND" H 3225 4325 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/on-semiconductor/BZX84C15LT3G/BZX84C15LT3GOSTR-ND/1476313" H 3225 4325 50  0001 C CNN "Supplier Link"
+F 8 "ON Semiconductor" H 3225 4325 50  0001 C CNN "Manufacturer"
+F 9 "BZX84C15" H 3225 4325 50  0001 C CNN "Parts Per Reel"
+	1    3225 4325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3225 4125 3225 4225
+Wire Wire Line
+	3225 4475 3225 4425
+Wire Wire Line
+	3825 3800 4675 3800
+$Comp
+L power:GND #PWR0101
+U 1 1 5C7121E2
+P 4725 3150
+F 0 "#PWR0101" H 4725 2900 50  0001 C CNN
+F 1 "GND" H 4725 3000 50  0000 C CNN
+F 2 "" H 4725 3150 50  0000 C CNN
+F 3 "" H 4725 3150 50  0000 C CNN
+	1    4725 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 3150 4725 3075
+$Comp
+L power:+BATT #PWR0102
+U 1 1 5C712F16
+P 4725 3600
+F 0 "#PWR0102" H 4725 3450 50  0001 C CNN
+F 1 "+BATT" H 4725 3740 50  0000 C CNN
+F 2 "" H 4725 3600 50  0000 C CNN
+F 3 "" H 4725 3600 50  0000 C CNN
+	1    4725 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 3600 4725 3700
+Wire Wire Line
+	4725 2850 4725 2975
+Text Notes 575  675  0    60   ~ 0
+Power - 10V - 38v
+Text Notes 1575 675  0    60   Italic 12
+Aboslut maxamum is 40V at 60Amps
+$Comp
+L Device:C_Small C11
+U 1 1 5C717987
+P 4675 4200
+F 0 "C11" H 4767 4246 50  0000 L CNN
+F 1 "10000pF" H 4767 4155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4675 4200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B103KBANNND.jsp" H 4675 4200 50  0001 C CNN
+F 4 "CL21B103KBANNND" H 4675 4200 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 4675 4200 50  0001 C CNN "Supplier"
+F 6 "CL21B103KBANNND-ND" H 4675 4200 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=CL21B103KBANNND-ND" H 4675 4200 50  0001 C CNN "Supplier Link"
+F 8 "Samsung Electro-Mechanics" H 4675 4200 50  0001 C CNN "Manufacturer"
+F 9 "0805 10000pF Ceramic 50V Cap" H 4675 4200 50  0001 C CNN "CPN"
+	1    4675 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C717A11
+P 4675 4475
+F 0 "#PWR0103" H 4675 4225 50  0001 C CNN
+F 1 "GND" H 4675 4325 50  0000 C CNN
+F 2 "" H 4675 4475 50  0000 C CNN
+F 3 "" H 4675 4475 50  0000 C CNN
+	1    4675 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 4475 4675 4300
+Wire Wire Line
+	4675 4100 4675 3800
+Connection ~ 4675 3800
+Wire Wire Line
+	4675 3800 4725 3800
+Text Notes 5150 4375 2    39   ~ 0
+50V Ceramic
+Text Notes 4875 3625 0    39   ~ 0
+XT-60\nFemale
+Text Notes 4875 2900 0    39   ~ 0
+XT-60\nMale
+Text Notes 1650 3850 0    39   ~ 0
+5mm\nScrew \nTermainl
+Text Notes 3500 4475 2    39   ~ 0
+250mW
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C722622
+P 9675 1225
+F 0 "H3" H 9500 1125 50  0000 L CNN
+F 1 "M3 Clearance Hole" H 9775 1180 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9675 1225 50  0001 C CNN
+F 3 "~" H 9675 1225 50  0001 C CNN
+	1    9675 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C7228F0
+P 9900 1225
+F 0 "H4" H 9975 1125 50  0000 L CNN
+F 1 "M3 Clearance Hole" H 10000 1180 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9900 1225 50  0001 C CNN
+F 3 "~" H 9900 1225 50  0001 C CNN
+	1    9900 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C722FDB
+P 9675 1025
+F 0 "H1" H 9500 1125 50  0000 L CNN
+F 1 "M3 Clearance Hole" H 9775 980 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9675 1025 50  0001 C CNN
+F 3 "~" H 9675 1025 50  0001 C CNN
+	1    9675 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C722FE1
+P 9900 1025
+F 0 "H2" H 9975 1125 50  0000 L CNN
+F 1 "M3 Clearance Hole" H 10000 980 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 9900 1025 50  0001 C CNN
+F 3 "~" H 9900 1025 50  0001 C CNN
+	1    9900 1025
+	1    0    0    -1  
+$EndComp
+Text Notes 9450 825  0    60   ~ 0
+Mounting Holes
+Wire Notes Line
+	10150 850  9450 850 
+$Comp
+L conn:CONN_01X02 J11
+U 1 1 5C728CBA
+P 4925 3025
+F 0 "J11" H 4875 2875 50  0000 L CNN
+F 1 "XT-60" H 5003 2975 50  0001 L CNN
+F 2 "MyLib:XT60" H 4925 3025 50  0001 C CNN
+F 3 "" H 4925 3025 50  0001 C CNN
+F 4 "XT-60" H 4925 3025 50  0001 C CNN "Manufacturer Number"
+F 5 "SparkFun" H 4925 3025 50  0001 C CNN "Supplier"
+F 6 "PRT-10474" H 4925 3025 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.sparkfun.com/products/10474" H 4925 3025 50  0001 C CNN "Supplier Link"
+F 8 "SparkFun" H 4925 3025 50  0001 C CNN "Manufacturer"
+F 9 "XT-60" H 4925 3025 50  0001 C CNN "CPN"
+	1    4925 3025
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10150 1400 9450 1400
+Wire Notes Line
+	9450 850  9450 1400
+Wire Notes Line
+	10150 850  10150 1400
+Wire Wire Line
+	2025 3700 2125 3700
+Wire Wire Line
+	2025 3600 2025 3700
+Wire Wire Line
+	1900 3600 2025 3600
+$Comp
+L Device:R R23
+U 1 1 5E6B3E41
+P 6375 3775
+F 0 "R23" V 6455 3775 50  0000 C CNN
+F 1 "1.99K" V 6300 3775 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210_HandSoldering" V 6305 3775 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 6375 3775 50  0001 C CNN
+F 4 "RMCF1210JT2K00" H 6375 3775 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 6375 3775 60  0001 C CNN "Supplier"
+F 6 "RMCF1210JT2K00TR-ND" H 6375 3775 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF1210JT2K00/RMCF1210JT2K00TR-ND/1757288" H 6375 3775 60  0001 C CNN "Supplier Link"
+F 8 "Stackpole Electronics Inc." H 6375 3775 60  0001 C CNN "Manufacturer"
+	1    6375 3775
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR0104
+U 1 1 5E6B3E47
+P 8825 2925
+F 0 "#PWR0104" H 8825 2775 50  0001 C CNN
+F 1 "+BATT" H 8825 3065 50  0000 C CNN
+F 2 "" H 8825 2925 50  0000 C CNN
+F 3 "" H 8825 2925 50  0000 C CNN
+	1    8825 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L MyComp:TLP182 U21
+U 1 1 5E6B3E53
+P 7000 3675
+F 0 "U21" H 6825 3450 50  0000 L CNN
+F 1 "TLP182" H 6825 3875 50  0000 L CNN
+F 2 "MyLib:TLP182" H 6800 3475 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=14414&prodName=TLP182" H 7000 3675 50  0001 L CNN
+F 4 "TLP182(BL-TPL,E" H 7000 3675 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 7000 3675 60  0001 C CNN "Supplier"
+F 6 "TLP182(BL-TPLECT-ND" H 7000 3675 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=TLP182(BL-TPLECT-ND" H 7000 3675 60  0001 C CNN "Supplier Link"
+F 8 "Toshiba" H 7000 3675 60  0001 C CNN "Manufacturer"
+F 9 "TLP290GB" H 7000 3675 50  0001 C CNN "CPN"
+	1    7000 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0105
+U 1 1 5E6B3E59
+P 7325 3325
+F 0 "#PWR0105" H 7325 3175 50  0001 C CNN
+F 1 "+BATT" H 7325 3465 50  0000 C CNN
+F 2 "" H 7325 3325 50  0000 C CNN
+F 3 "" H 7325 3325 50  0000 C CNN
+	1    7325 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5E6B3E64
+P 7325 4000
+F 0 "R21" V 7405 4000 50  0000 C CNN
+F 1 "1.0K" V 7225 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7255 4000 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 7325 4000 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 7325 4000 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 7325 4000 60  0001 C CNN "Supplier"
+F 6 "311-1.00KFRCT-ND" H 7325 4000 60  0001 C CNN "Supplier Part No"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 7325 4000 60  0001 C CNN "Supplier Link"
+F 8 "Yageo" H 7325 4000 60  0001 C CNN "Manufacturer"
+	1    7325 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Small_ALT D23
+U 1 1 5E6B3E70
+P 7925 3725
+F 0 "D23" H 7875 3850 50  0000 L CNN
+F 1 "~" H 7750 3625 50  0001 L CNN
+F 2 "LEDs:LED_0805_HandSoldering" V 7925 3725 50  0001 C CNN
+F 3 "http://www.qt-brightek.com/datasheet/QBLP631_series.pdf" V 7925 3725 50  0001 C CNN
+F 4 "QBLP631-IW" H 7925 3725 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 7925 3725 60  0001 C CNN "Supplier"
+F 6 "1516-1085-2-ND" H 7925 3725 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=1516-1085-2-ND" H 7925 3725 60  0001 C CNN "Supplier Link"
+F 8 "QT Brightek (QTB)" H 7925 3725 60  0001 C CNN "Manufacturer"
+F 9 "LED 0805 white" H 7925 3725 50  0001 C CNN "CPN"
+	1    7925 3725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L conn:CONN_01X02 CN21
+U 1 1 5E6B3E7C
+P 5800 3625
+F 0 "CN21" H 5800 3775 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5810 3565 50  0001 C CNN
+F 2 "Connectors_JST:JST_NV_B02P-NV_2x5.00mm_Vertical" H 5800 3625 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 5800 3625 50  0001 C CNN
+F 4 "1935161" H 5800 3625 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 5800 3625 60  0001 C CNN "Supplier"
+F 6 "277-1667-ND" H 5800 3625 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=277-1667-ND" H 5800 3625 60  0001 C CNN "Supplier Link"
+F 8 "Phoenix Contact" H 5800 3625 60  0001 C CNN "Manufacturer"
+F 9 "5mm Screw Termainal PCB" H 5800 3625 50  0001 C CNN "CPN"
+	1    5800 3625
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E6B3E82
+P 7925 4550
+F 0 "#PWR0106" H 7925 4300 50  0001 C CNN
+F 1 "GND" H 7925 4400 50  0000 C CNN
+F 2 "" H 7925 4550 50  0000 C CNN
+F 3 "" H 7925 4550 50  0000 C CNN
+	1    7925 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0107
+U 1 1 5E6B3E88
+P 7925 3225
+F 0 "#PWR0107" H 7925 3075 50  0001 C CNN
+F 1 "+BATT" H 7925 3365 50  0000 C CNN
+F 2 "" H 7925 3225 50  0000 C CNN
+F 3 "" H 7925 3225 50  0000 C CNN
+	1    7925 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5E6B3E8E
+P 7325 4550
+F 0 "#PWR0108" H 7325 4300 50  0001 C CNN
+F 1 "GND" H 7325 4400 50  0000 C CNN
+F 2 "" H 7325 4550 50  0000 C CNN
+F 3 "" H 7325 4550 50  0000 C CNN
+	1    7325 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5E6B3E99
+P 7925 3425
+F 0 "R25" V 8005 3425 50  0000 C CNN
+F 1 "3.6K" V 7825 3425 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 7855 3425 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 7925 3425 50  0001 C CNN
+F 4 "RC1206FR-073K6L" H 7925 3425 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 7925 3425 60  0001 C CNN "Supplier"
+F 6 "311-3.60KFRCT-ND" H 7925 3425 60  0001 C CNN "Supplier Part No"
+F 7 "http://www.digikey.com/products/en?keywords=311-3.60KFRCT-ND" H 7925 3425 60  0001 C CNN "Supplier Link"
+F 8 "Yageo" H 7925 3425 60  0001 C CNN "Manufacturer"
+	1    7925 3425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 3225 7925 3275
+Wire Wire Line
+	7325 4150 7325 4200
+Wire Wire Line
+	7625 4200 7325 4200
+Connection ~ 7325 4200
+Wire Wire Line
+	7300 3575 7325 3575
+Wire Wire Line
+	7325 3575 7325 3325
+Wire Wire Line
+	7300 3775 7325 3775
+Wire Wire Line
+	7325 3775 7325 3850
+Wire Wire Line
+	7925 3575 7925 3625
+Wire Wire Line
+	6000 3575 6700 3575
+Wire Wire Line
+	6525 3775 6700 3775
+Text Notes 9100 3200 0    60   ~ 0
+POWER-
+Text Notes 9100 3100 0    60   ~ 0
+POWER+
+Text Notes 9100 3825 0    60   ~ 0
+BED+
+Text Notes 9100 3925 0    60   ~ 0
+BED-
+Text Notes 8125 3575 1    39   ~ 0
+1/4 Watt
+Text Notes 7525 4125 1    39   ~ 0
+1/8 Watt
+Text Notes 6250 3950 0    39   ~ 0
+1/2 Watt
+Wire Wire Line
+	7925 3825 7925 3875
+Connection ~ 7925 3875
+$Comp
+L MyComp:Q_NMOS_GSSSSSD Q21
+U 1 1 5E6B3EB9
+P 7825 4200
+F 0 "Q21" H 8025 4200 50  0000 L CNN
+F 1 "AUIRFSA8409-7P" H 8025 4300 50  0000 L CNN
+F 2 "MyLib:TO-263-6-HeatSunk" H 8025 4300 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/auirfsa8409-7P.pdf?fileId=5546d462533600a4015355b9bf8114fb" H 7825 4200 50  0001 C CNN
+F 4 "AUIRFSA8409-7P" H 7825 4200 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 7825 4200 50  0001 C CNN "Supplier"
+F 6 "AUIRFSA8409-7P-ND" H 7825 4200 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=AUIRFSA8409-7P-ND" H 7825 4200 50  0001 C CIN "Supplier Link"
+F 8 "Infineon Technologies" H 7825 4200 50  0001 C CNN "Manufacturer"
+F 9 "IRFS7430-7PPbF" H 7825 4200 50  0001 C CNN "CPN"
+	1    7825 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 3875 7925 4000
+$Comp
+L conn:CONN_01X02 J22
+U 1 1 5E6B3EC6
+P 9025 3825
+F 0 "J22" H 8975 3675 50  0000 L CNN
+F 1 "XT-60" H 9103 3775 50  0001 L CNN
+F 2 "MyLib:XT60" H 9025 3825 50  0001 C CNN
+F 3 "" H 9025 3825 50  0001 C CNN
+F 4 "XT-60" H 9025 3825 50  0001 C CNN "Manufacturer Number"
+F 5 "SparkFun" H 9025 3825 50  0001 C CNN "Supplier"
+F 6 "PRT-10474" H 9025 3825 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.sparkfun.com/products/10474" H 9025 3825 50  0001 C CNN "Supplier Link"
+F 8 "SparkFun" H 9025 3825 50  0001 C CNN "Manufacturer"
+F 9 "XT-60" H 9025 3825 50  0001 C CNN "CPN"
+	1    9025 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 4450 7925 4500
+Wire Wire Line
+	8325 4450 8325 4500
+Wire Wire Line
+	8325 4500 8225 4500
+Connection ~ 7925 4500
+Wire Wire Line
+	7925 4500 7925 4550
+Wire Wire Line
+	8025 4450 8025 4500
+Connection ~ 8025 4500
+Wire Wire Line
+	8025 4500 7925 4500
+Wire Wire Line
+	8125 4450 8125 4500
+Connection ~ 8125 4500
+Wire Wire Line
+	8125 4500 8025 4500
+Wire Wire Line
+	8225 4450 8225 4500
+Connection ~ 8225 4500
+Wire Wire Line
+	8225 4500 8125 4500
+$Comp
+L MyComp:D_Zener_Single_SOT_3pin D21
+U 1 1 5E6B3EE0
+P 7325 4400
+F 0 "D21" V 7279 4468 50  0000 L CNN
+F 1 "15V" V 7370 4468 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" V 7325 4400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BZX84C2V4LT1-D.PDF" V 7325 4400 50  0001 C CNN
+F 4 "BZX84C15LT3G" H 7325 4400 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 7325 4400 50  0001 C CNN "Supplier"
+F 6 "BZX84C15LT3GOSTR-ND" H 7325 4400 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/on-semiconductor/BZX84C15LT3G/BZX84C15LT3GOSTR-ND/1476313" H 7325 4400 50  0001 C CNN "Supplier Link"
+F 8 "ON Semiconductor" H 7325 4400 50  0001 C CNN "Manufacturer"
+F 9 "BZX84C15" H 7325 4400 50  0001 C CNN "Parts Per Reel"
+	1    7325 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7325 4200 7325 4300
+Wire Wire Line
+	7325 4550 7325 4500
+Wire Wire Line
+	7925 3875 8775 3875
+$Comp
+L power:GND #PWR0109
+U 1 1 5E6B3EE9
+P 8825 3225
+F 0 "#PWR0109" H 8825 2975 50  0001 C CNN
+F 1 "GND" H 8825 3075 50  0000 C CNN
+F 2 "" H 8825 3225 50  0000 C CNN
+F 3 "" H 8825 3225 50  0000 C CNN
+	1    8825 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 3225 8825 3150
+$Comp
+L power:+BATT #PWR0110
+U 1 1 5E6B3EF0
+P 8825 3675
+F 0 "#PWR0110" H 8825 3525 50  0001 C CNN
+F 1 "+BATT" H 8825 3815 50  0000 C CNN
+F 2 "" H 8825 3675 50  0000 C CNN
+F 3 "" H 8825 3675 50  0000 C CNN
+	1    8825 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 3675 8825 3775
+Wire Wire Line
+	8825 2925 8825 3050
+$Comp
+L Device:C_Small C21
+U 1 1 5E6B3EFE
+P 8775 4275
+F 0 "C21" H 8867 4321 50  0000 L CNN
+F 1 "10000pF" H 8867 4230 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8775 4275 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL21B103KBANNND.jsp" H 8775 4275 50  0001 C CNN
+F 4 "CL21B103KBANNND" H 8775 4275 50  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 8775 4275 50  0001 C CNN "Supplier"
+F 6 "CL21B103KBANNND-ND" H 8775 4275 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/products/en?keywords=CL21B103KBANNND-ND" H 8775 4275 50  0001 C CNN "Supplier Link"
+F 8 "Samsung Electro-Mechanics" H 8775 4275 50  0001 C CNN "Manufacturer"
+F 9 "0805 10000pF Ceramic 50V Cap" H 8775 4275 50  0001 C CNN "CPN"
+	1    8775 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5E6B3F04
+P 8775 4550
+F 0 "#PWR0111" H 8775 4300 50  0001 C CNN
+F 1 "GND" H 8775 4400 50  0000 C CNN
+F 2 "" H 8775 4550 50  0000 C CNN
+F 3 "" H 8775 4550 50  0000 C CNN
+	1    8775 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8775 4550 8775 4375
+Wire Wire Line
+	8775 4175 8775 3875
+Connection ~ 8775 3875
+Wire Wire Line
+	8775 3875 8825 3875
+Text Notes 9250 4450 2    39   ~ 0
+50V Ceramic
+Text Notes 8975 3700 0    39   ~ 0
+XT-60\nFemale
+Text Notes 8975 2975 0    39   ~ 0
+XT-60\nMale
+Text Notes 5750 3925 0    39   ~ 0
+5mm\nScrew \nTermainl
+Text Notes 7600 4550 2    39   ~ 0
+250mW
+$Comp
+L conn:CONN_01X02 J21
+U 1 1 5E6B3F19
+P 9025 3100
+F 0 "J21" H 8975 2950 50  0000 L CNN
+F 1 "XT-60" H 9103 3050 50  0001 L CNN
+F 2 "MyLib:XT60" H 9025 3100 50  0001 C CNN
+F 3 "" H 9025 3100 50  0001 C CNN
+F 4 "XT-60" H 9025 3100 50  0001 C CNN "Manufacturer Number"
+F 5 "SparkFun" H 9025 3100 50  0001 C CNN "Supplier"
+F 6 "PRT-10474" H 9025 3100 50  0001 C CNN "Supplier Part No"
+F 7 "https://www.sparkfun.com/products/10474" H 9025 3100 50  0001 C CNN "Supplier Link"
+F 8 "SparkFun" H 9025 3100 50  0001 C CNN "Manufacturer"
+F 9 "XT-60" H 9025 3100 50  0001 C CNN "CPN"
+	1    9025 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6125 3775 6225 3775
+Wire Wire Line
+	6125 3675 6125 3775
+Wire Wire Line
+	6000 3675 6125 3675
+$Comp
+L Graphic:Logo_Open_Hardware_Large LO1
+U 1 1 5E6AF78A
+P 1575 6575
+F 0 "LO1" H 1575 7075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 1575 6175 50  0001 C CNN
+F 2 "MyLib:OPEN_GEAR" H 1575 6575 50  0001 C CNN
+F 3 "~" H 1575 6575 50  0001 C CNN
+	1    1575 6575
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

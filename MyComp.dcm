@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSD17575Q3
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP D_Zener_Single_SOT_3pin
+D Zener diode, small symbol, filled shape
+K diode
+F ~
+$ENDCMP
+#
+$CMP PSMN5R6-60YLX
+D Transistor N-MOSFETwith substrate diode, drain connected to mounting plane (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_NMOS_GSSSSSD
+D N-MOSFET transistor, gate/drain/source, drain connected to mounting plane
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP TCMT1600
+D AC/DC Phototransistor Optocoupler, Vce 70V, CTR 80-300%, SOP4
+K NPN AC DC Phototransistor Optocoupler
+F http://www.vishay.com/docs/83512/tcmt1600.pdf
+$ENDCMP
+#
+$CMP TLP152
+D SO6, MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA
+K MOSFET Output Photorelay 1-Form-A
+$ENDCMP
+#
+$CMP TLP182
+D AC/DC Phototransistor Optocoupler, Vce 80V, CTR 50-600%, SOP4
+K NPN AC DC Phototransistor Optocoupler
+F http://www.semicon.toshiba.co.jp/docs/datasheet/en/Opto/TLP290_en_datasheet_120426.pdf
+$ENDCMP
+#
+$CMP TLP2361
+D MFSOP6, DC Darlington Optocoupler, Vce 35V, CTR 600%
+K NPN Darlington DC Optocoupler
+$ENDCMP
+#
+#End Doc Library
