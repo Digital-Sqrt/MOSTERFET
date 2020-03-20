@@ -2312,7 +2312,7 @@
     (arrow2b (pts (xy 73 123) (xy 74.126504 122.413579)))
   )
   (dimension 60 (width 0.3) (layer Dwgs.User) (tstamp 5E72CE8B)
-    (gr_text "60.0 mm" (at 130.1 87 270) (layer Dwgs.User) (tstamp 5E72CE8C)
+    (gr_text "60.0 mm" (at 130.1 87 270) (layer Dwgs.User) (tstamp 5E72CE8B)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 123 117) (xy 128.586421 117)))
