@@ -828,4 +828,70 @@ F 3 "~" H 1575 6575 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3825 3800 4675 3800
+$Comp
+L Device:R R12
+U 1 1 5E79AAFD
+P 2850 4300
+F 0 "R12" V 2930 4300 50  0000 C CNN
+F 1 "10K" V 2750 4300 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2780 4300 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 2850 4300 50  0001 C CNN
+F 4 "RC1206FR-0710KL" H 2850 4300 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 2850 4300 60  0001 C CNN "Supplier"
+F 6 "311-10.0KFRCT-ND" H 2850 4300 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-0710KL/311-10-0KFRCT-ND/731430" H 2850 4300 60  0001 C CNN "Supplier Link"
+F 8 "Yageo" H 2850 4300 60  0001 C CNN "Manufacturer"
+	1    2850 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E79BA05
+P 2850 4475
+F 0 "#PWR?" H 2850 4225 50  0001 C CNN
+F 1 "GND" H 2850 4325 50  0000 C CNN
+F 2 "" H 2850 4475 50  0000 C CNN
+F 3 "" H 2850 4475 50  0000 C CNN
+	1    2850 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4475 2850 4450
+Wire Wire Line
+	2850 4150 2850 4125
+Wire Wire Line
+	2850 4125 3225 4125
+$Comp
+L power:GND #PWR?
+U 1 1 5E79F3C5
+P 6950 4550
+F 0 "#PWR?" H 6950 4300 50  0001 C CNN
+F 1 "GND" H 6950 4400 50  0000 C CNN
+F 2 "" H 6950 4550 50  0000 C CNN
+F 3 "" H 6950 4550 50  0000 C CNN
+	1    6950 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4550 6950 4525
+Wire Wire Line
+	6950 4225 6950 4200
+Wire Wire Line
+	6950 4200 7325 4200
+$Comp
+L Device:R R22
+U 1 1 5E7A3262
+P 6950 4375
+F 0 "R22" V 7030 4375 50  0000 C CNN
+F 1 "10K" V 6850 4375 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6880 4375 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 6950 4375 50  0001 C CNN
+F 4 "RC1206FR-0710KL" H 6950 4375 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 6950 4375 60  0001 C CNN "Supplier"
+F 6 "311-10.0KFRCT-ND" H 6950 4375 60  0001 C CNN "Supplier Part No"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206FR-0710KL/311-10-0KFRCT-ND/731430" H 6950 4375 60  0001 C CNN "Supplier Link"
+F 8 "Yageo" H 6950 4375 60  0001 C CNN "Manufacturer"
+	1    6950 4375
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

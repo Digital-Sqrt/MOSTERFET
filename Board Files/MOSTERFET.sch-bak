@@ -821,11 +821,44 @@ U 1 1 5E6AF78A
 P 1575 6575
 F 0 "LO1" H 1575 7075 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Large" H 1575 6175 50  0001 C CNN
-F 2 "MyLib:OPEN_GEAR" H 1575 6575 50  0001 C CNN
+F 2 "Symbols:OSHW-Symbol_8.9x8mm_SilkScreen" H 1575 6575 50  0001 C CNN
 F 3 "~" H 1575 6575 50  0001 C CNN
 	1    1575 6575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3825 3800 4675 3800
+$Comp
+L Device:R R12
+U 1 1 5E79AAFD
+P 2850 4300
+F 0 "R12" V 2930 4300 50  0000 C CNN
+F 1 "10K" V 2750 4300 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 2780 4300 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_4.pdf" H 2850 4300 50  0001 C CNN
+F 4 "RC1206FR-071KL" H 2850 4300 60  0001 C CNN "Manufacturer Number"
+F 5 "Digi-Key" H 2850 4300 60  0001 C CNN "Supplier"
+F 6 "311-1.00KFRCT-ND" H 2850 4300 60  0001 C CNN "Supplier Part No"
+F 7 "http://www.digikey.com/product-detail/en/yageo/RC1206FR-071KL/311-1.00KFRCT-ND/731334" H 2850 4300 60  0001 C CNN "Supplier Link"
+F 8 "Yageo" H 2850 4300 60  0001 C CNN "Manufacturer"
+	1    2850 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E79BA05
+P 2850 4475
+F 0 "#PWR?" H 2850 4225 50  0001 C CNN
+F 1 "GND" H 2850 4325 50  0000 C CNN
+F 2 "" H 2850 4475 50  0000 C CNN
+F 3 "" H 2850 4475 50  0000 C CNN
+	1    2850 4475
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4475 2850 4450
+Wire Wire Line
+	2850 4150 2850 4125
+Wire Wire Line
+	2850 4125 3225 4125
 $EndSCHEMATC
