@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Digital-Sqrt\\Documents\\Git_Hub\\MOSTERFET\\Board Files\\MOSTERFET.sch")
-    (date "3/23/2020 10:18:12 PM")
+    (date "3/28/2020 1:06:37 AM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

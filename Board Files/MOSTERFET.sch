@@ -894,4 +894,8 @@ F 8 "Yageo" H 6950 4375 60  0001 C CNN "Manufacturer"
 	1    6950 4375
 	-1   0    0    -1  
 $EndComp
+Text Notes 3050 4450 1    39   ~ 0
+1/8 Watt
+Text Notes 7150 4525 1    39   ~ 0
+1/8 Watt
 $EndSCHEMATC
