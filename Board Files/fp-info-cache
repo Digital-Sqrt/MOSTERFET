@@ -1,4 +1,4 @@
-988930499195129
+993697397469139
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -31612,6 +31612,13 @@ MountingHole_8.4mm_M8_Pad_Via
 0
 0
 MyLib
+DS_LOGO
+
+
+0
+0
+0
+MyLib
 MOSTER_FET_LOGO
 
 
@@ -31638,6 +31645,20 @@ TLP182
 
 0
 4
+4
+MyLib
+TO-263-2Lead_(Larg_Heat_Sink)
+D2PAK / TO-263 3-lead smd package
+D2PAK D2PAK-3 TO-263AB TO-263
+0
+628
+3
+MyLib
+TO-263-2Lead_(Small_Heat_Sink)
+D2PAK / TO-263 3-lead smd package
+D2PAK D2PAK-3 TO-263AB TO-263
+0
+39
 4
 MyLib
 TO-263-6-HeatSunk
