@@ -1,4 +1,4 @@
-1016015225810033
+1017859504792003
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -31646,6 +31646,13 @@ TLP182
 0
 4
 4
+MyLib
+TO-247_TO-3P_Horizontal_Heat_Sink
+TO-247, Horizontal, RM 5.45mm, TO-3P
+TO-247 Horizontal RM 5.45mm TO-3P
+0
+3
+3
 MyLib
 TO-263-2Lead_(Larg_Heat_Sink)
 D2PAK / TO-263 3-lead smd package

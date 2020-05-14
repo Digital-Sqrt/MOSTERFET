@@ -154,7 +154,7 @@
 
   (module kicad-oshwa:OSHW_Mono_0.1_Scale (layer F.Cu) (tedit 5873CC1C) (tstamp 5E9159F2)
     (at 111.5 112)
-    (fp_text reference OSHW_Mono_0.1_Scale (at 0 -4.132151) (layer F.SilkS) hide
+    (fp_text reference OSHW (at 0 -4.132151) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value US000268 (at 0 1.8) (layer F.SilkS)
@@ -1292,7 +1292,7 @@
     (fp_text reference D23 (at 3.6 -0.2) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ~ (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D23 (at 0 1.75 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.2 -0.75) (end -2.2 0.75) (layer F.SilkS) (width 0.12))
@@ -1532,7 +1532,7 @@
     (fp_text reference D13 (at 3.6 -0.1) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value ~ (at 0 1.75 270) (layer F.Fab)
+    (fp_text value D13 (at 0 1.75 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.4 -0.4) (end -0.4 0.4) (layer F.Fab) (width 0.1))
